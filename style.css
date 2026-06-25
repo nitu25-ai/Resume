@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #eae7e2;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 60px 20px;
+}
+
+.resume {
+    width: 1000px;
+    background: #f8f6f3;
+    box-shadow: 0 20px 50px rgba(0,0,0,0.1);
+}
+
+/* Header */
+.header {
+    padding: 50px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.header h1 {
+    font-family: 'Playfair Display', serif;
+    letter-spacing: 6px;
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.job-title {
+    margin-top: 10px;
+    font-size: 13px;
+    letter-spacing: 3px;
+    color: #777;
+}
+
+/* Layout */
+.content {
+    display: flex;
+}
+
+.left {
+    width: 35%;
+    background: #efede9;
+    padding: 40px;
+}
+
+.right {
+    width: 65%;
+    padding: 50px;
+}
+
+/* Sections */
+.section {
+    margin-bottom: 35px;
+}
+
+.section h3 {
+    font-size: 13px;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: #555;
+}
+
+.section h2 {
+    font-family: 'Playfair Display', serif;
+    font-size: 18px;
+    letter-spacing: 3px;
+    margin-bottom: 15px;
+}
+
+.section p {
+    font-size: 13px;
+    line-height: 1.8;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+/* Job styling */
+.job {
+    margin-bottom: 25px;
+}
+
+.job h4 {
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.job span {
+    font-size: 12px;
+    color: #888;
+}
+
+.job p {
+    font-size: 13px;
+    color: #555;
+}
+
+/* Responsive */
+@media(max-width: 900px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+}
